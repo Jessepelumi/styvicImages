@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&display=swap');
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.services_cards {
+    @apply flex gap-5 items-center border border-red-500 p-4 shadow-lg text-red-500
+}
