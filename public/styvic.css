@@ -707,6 +707,10 @@ video {
   text-align: center;
 }
 
+.align-middle{
+  vertical-align: middle;
+}
+
 .font-body{
   font-family: Averia Serif Libre;
 }
