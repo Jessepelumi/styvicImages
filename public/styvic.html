@@ -7,9 +7,9 @@
     <title>Styvic Images</title>
 </head>
 <body class="font-body bg-black text-white">
-    <div class="navigation text-white h-12 backdrop-blur-md flex items-center sticky top-0 px-5 w-full lg:px-44">
+    <div class="navigation text-white h-12 backdrop-blur-lg flex items-center sticky top-0 px-5 w-full lg:px-44">
         <nav>
-            <span class="font-logo text-2xl">styvic</span>
+            <span class="font-bold text-2xl">styvic</span>
         </nav>
     </div>
 
@@ -159,9 +159,9 @@
     <div class="footer border-t border-white pt-5 mx-5 pb-10 lg:pb-20 lg:mx-44">
         <div class="text-white flex flex-col gap-2 lg:flex-row items-center lg:justify-between">
             <nav class="lg:w-1/2">
-                <span class="font-logo text-2xl">styvic</span>
+                <span class="font-bold text-2xl">styvic</span>
                 <span class="text-sm text-slate-400">
-                    &copy 2023
+                    &copy <span id="year"></span>
                 </span>
             </nav>
 
@@ -205,5 +205,8 @@
             </div>
         </div>
     </div>
+
+
+    <script src="styvic.js"></script>
 </body>
 </html>
